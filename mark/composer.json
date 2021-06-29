@@ -1,0 +1,24 @@
+{
+
+    "name":"medieval/mark",
+    "description": "Proyecto final",
+    "type":"project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Jorge Warden",
+            "email": "warden.alb@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+    "psr-4":{
+        "Medieval\\":"src/"
+    }
+    }
+
+
+
+}

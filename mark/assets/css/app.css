@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+html{
+    box-sizing:border-box;
+    font-size:62.5%;
+}
+*,:after,:before{
+    box-sizing:inherit;
+}
+body{
+    font-family:MedievalSharp,cursive;
+    font-size:1.6rem;
+    line-height:1.8;
+}
+p{
+    color:#000;
+    font-size:2rem;
+}
+.contenedor{
+    margin:0 auto;
+    max-width:120rem;
+    width:95%;
+}
+a{
+    font-family:Lato,sans-serif;
+    text-decoration:none;
+}
+img,picture{
+    display:block;
+    width:100%;
+}
+h1,h2,h3{
+    font-family:MedievalSharp,cursive;
+    font-weight:300;
+    margin:2.5rem 0;
+    text-align:center;
+}
+h1{
+    color:#fff;
+    font-size:3.8rem;
+}
+h2{
+    font-size:3.4rem;
+}
+h3{
+    font-size:3rem;
+}
+h4{
+    font-size:2.6rem;
+}
+.seccion{
+    margin-bottom:2.5rem;
+    margin-top:2.5rem;
+}
+.contenido-centrado{
+    max-width:80rem;
+}
+.alinear-derecha{
+    display:flex;
+    justify-content:flex-end;
+}
+
+    .header{
+        background-image:url(../../assets/img/castillo.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        min-height:40rem;
+    }
+    .header1{
+        background-color: #00008b;
+        min-height:15rem;
+    }
+    
+
+
+
+.contenido-header{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+@media (min-width:768px){
+    .contenido-header{
+        min-height:40rem;
+    }
+}
+.contenido-header h1{
+    font-weight:700;
+    line-height:2rem;
+    padding-bottom:3rem;
+}
+
+.contenido-header1 h1{
+    line-height:2rem;
+    padding-bottom:3rem;
+    margin-top: -5rem;
+}
+
+.footer{
+    background-color:#605ee0;
+    margin:-1rem;
+    padding:2.5rem 0;
+}
+@media only screen and (max-width: 600px){
+    .footer{
+        display: none;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .header{
+        background-image:url(../../assets/img/caballeria1.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        min-height:40rem;
+    }
+    
+
+}
+.footer .contenedor-footer{
+    padding-top:2.5rem;
+}
+.footer .copyright{
+    color:#fff;
+    text-align:center;
+}
+.barra{
+    display:flex;
+    flex-direction:column;
+    padding: top 3rem;
+}
+@media (min-width:768px){
+    .barra{
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+
+.navegacion{
+    align-items:center;
+    display:flex;
+}
+.navegacion:last-of-type{
+    margin-right:0;
+}
+}
+.navegacion a{
+    color:#ff0;
+    display:block;
+    font-size:2.2rem;
+    margin-right:2rem;
+    text-align:center;
+    text-decoration:none;
+}
+@media (min-width:768px){
+    .navegacion a{
+        font-size:1.8rem;
+    }
+}
+a img{
+    height:10rem;
+    padding-top:2rem;
+    width:10rem;
+}
+.icono{
+    text-align:center;
+}
+.icono img{
+    display:block;
+    height:10rem;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    width:10rem;
+}
+.icono h3{
+    text-transform:uppercase;
+}
+.icono p{
+        font-family:Lato,sans-serif;
+    }
+@media (min-width:768px){
+    .iconos-nosotros{
+        display:grid;
+        gap:2rem;
+        grid-template-columns:repeat(3,1fr);
+    }
+.contenedor-anuncio{
+    display:grid;
+    gap:2rem;
+    grid-template-columns:repeat(4,1fr);
+    }
+}
+.anuncio{
+    background-color:#cac9f0;
+    border:1px solid #00008b;
+    margin-top:2rem;
+}
+.anuncio img{
+    padding:1rem;
+}
+.anuncio p{
+    font-family:Lato,sans-serif;
+    margin:2rem 1rem;
+    text-align:center;
+}
+.anuncio:hover{
+    background-color:#ff8c00;
+}
+.boton-medieval{
+    background-color:#605ee0;
+    color:#fff;
+    display:block;
+    font-weight:700;
+    margin-top:2.5rem;
+    padding:5rem;
+    text-align:center;
+    text-decoration:none;
+}
+.boton-medieval:hover{
+    background-color:#00008b;
+    text-transform:uppercase;
+}
+.boton-medieval-block{
+    background-color:#605ee0;
+    color:#fff;display:inline-block;
+    font-weight:700;
+    margin-top:2.5rem;
+    padding:2rem 4rem;
+    text-align:center;
+    text-decoration:none;
+}
+.boton-medieval-block:hover{
+    background-color:#ff8c00;
+    color:#000;
+    text-transform:uppercase;
+}
+.festival-imagen{
+    background-image:url(../../assets/img/festival-medieval-toluca.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#ff8c00;
+    margin:2rem -4rem;
+    padding:3rem;
+    text-align:center;
+}
+.festival-imagen p{
+    color:#fff;
+}
+/*# sourceMappingURL=app.css.map */
+.main-login{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.panel-info>.panel-heading{
+	color: #ffffff;
+    background-color: #e95420;
+}
+.main-login{
+	max-width: 300px;
+	margin: 0 auto;
+}
+.panel-title{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.img-gondor{
+    width: 25rem;
+    height: 25rem;
+    display:block;
+    margin:auto;
+}
+
+.btn-margin{
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+}
+
+fieldset{
+    margin-top: 5rem;
+}
+.panel-info>.panel-heading{
+	color: #ffffff;
+    background-color: #e95420;
+}
+
+.panel-title{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.margin-panels{
+    margin-top: 5rem ;
+    padding: auto;
+}
+
+/*--------Menu---------*/
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container__flex {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.main-nav {
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+    background: rgba(0, 0, 0, 90);
+}
+
+.icon-bars {
+    display: block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .75);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: height .3s linear;
+}
+
+.menu__link {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+
+    background: #605ee0;
+
+}
+
+.menu__link--select {
+
+    background: #605ee0;
+
+}
+
+.mostrar {
+    height: 233px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    width: 200px;
+    background: #605ee0;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+
+
+@media (min-width:1024px) {
+    .main-nav {
+        padding: 0;
+    }
+
+    .icon-bars {
+        display: none;
+    }
+
+    .menu {
+        position: static;
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+
+    .menu__link {
+        padding: 20px;
+    }
+}
+
+/*---------Estilos Contacto--------------*/
+
+.bodyy {
+    background-image: url(/img/Fondo_Contacto.jpeg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+#boton {
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media(max-width:480px) {
+    form {
+        width: 100%;
+    }
+}
